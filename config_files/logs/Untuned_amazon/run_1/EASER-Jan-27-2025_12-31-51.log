@@ -1,0 +1,14 @@
+2025-01-27 12:31:51.974831: I Loading parameters
+2025-01-27 12:31:51.975553: I Parameter neighborhood set to -1
+2025-01-27 12:31:51.975915: I Parameter l2_norm set to 3.72
+2025-01-27 12:31:55.882930: I The similarity computation has taken: 3.906303644180298
+2025-01-27 12:32:17.056563: I Finished
+2025-01-27 12:32:17.057943: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:32:17.431565: I ******************************************
+2025-01-27 12:32:17.471599: I Loading parameters
+2025-01-27 12:32:17.472036: I Parameter neighborhood set to -1
+2025-01-27 12:32:17.472148: I Parameter l2_norm set to 3.72
+2025-01-27 12:32:19.846423: I The similarity computation has taken: 2.3739023208618164
+2025-01-27 12:32:40.310728: I Finished
+2025-01-27 12:32:40.312095: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:32:40.700320: I ******************************************

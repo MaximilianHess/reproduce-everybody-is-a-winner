@@ -1,0 +1,14 @@
+2025-01-26 17:04:26.854112: I Loading parameters
+2025-01-26 17:04:26.854525: I Parameter neighborhood set to -1
+2025-01-26 17:04:26.854621: I Parameter l2_norm set to 3.72
+2025-01-26 17:04:28.468119: I The similarity computation has taken: 1.6127173900604248
+2025-01-26 17:04:30.421616: I Finished
+2025-01-26 17:04:30.422329: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 17:04:30.662540: I ******************************************
+2025-01-26 17:04:30.689527: I Loading parameters
+2025-01-26 17:04:30.689916: I Parameter neighborhood set to -1
+2025-01-26 17:04:30.690030: I Parameter l2_norm set to 3.72
+2025-01-26 17:04:31.802185: I The similarity computation has taken: 1.1116650104522705
+2025-01-26 17:04:34.567568: I Finished
+2025-01-26 17:04:34.571225: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 17:04:34.751024: I ******************************************

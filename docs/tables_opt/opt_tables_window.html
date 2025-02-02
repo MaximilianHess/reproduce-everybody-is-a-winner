@@ -1,0 +1,765 @@
+	<ul class="nav nav-tabs" id="tables_tabs">
+		<li class="active"><a href="#opt-EASER" data-toggle="tab" aria-expanded="true">EASER</a></li>
+		<li class=""><a href="#opt-MultiDAE" data-toggle="tab" aria-expanded="true">MultiDAE</a></li>
+		 <!-- <li class=""><a href="#opt-MultiVAE" data-toggle="tab" aria-expanded="true">MultiVAE</a></li>-->
+		<li class=""><a href="#opt-GMF" data-toggle="tab" aria-expanded="true">GMF</a></li>
+		 <!--<li><a href="#opt-NeuMF" data-toggle="tab" aria-expanded="true">NeuMF</a></li>-->
+		<li><a href="#opt-ConvNeuMF" data-toggle="tab" aria-expanded="true">ConvNeuMF</a></li>
+		<li><a href="#opt-ConvMF" data-toggle="tab" aria-expanded="true">ConvMF</a></li>
+		<li><a href="#opt-NGCF" data-toggle="tab" aria-expanded="true">NGCF</a></li>
+	</ul>
+
+	<div class="tab-content">
+		<div id="opt-EASER" class="tab-pane fade active in">
+			<h3>Hyperparameters for <span class="caps">EASER</span></h3>
+			<p>
+				We tested the following hyperparameter space:
+			</p>
+			
+	<table class="hyper-space">
+	<tbody>	
+                <tr>
+			<th>Parameter</th>
+			<th>Ranges</th>
+			
+		</tr>
+			
+		<tr>
+			<td>l2_norm</td>
+			<td align="right">[loguniform, 2.72, 16]</td>
+					
+		</tr>
+	</tbody>
+	</table>
+			
+	<br>
+	<table class="hyper-params">					
+	<tbody>
+			
+                <tr>
+			<th>Dataset</th>
+			<th>l2_norm</th>			
+		</tr>	
+					
+		<tr>
+			<th>MovieLens 1M</th>
+			<th>696.785</th>			
+		</tr>
+					
+		<tr>
+			<th>Amazon Digital Music</th>
+			<th>15.930</th>			
+		</tr>
+					
+		<tr>
+			<th>Epinions</th>
+			<th>174.179</th>		
+		</tr>		
+	</tbody></table>
+		<br>
+
+		<br>
+			
+	
+	</div>	
+	<div id="opt-MultiDAE" class="tab-pane fade">
+		<h3>Hyperparameters for <span class="caps">MultiDAE</span></h3>
+		
+		<p>
+			We tested the following hyperparameter space:
+		</p>
+		
+	<table class="hyper-space">
+	<tbody>
+                <tr>
+			<th>Parameter</th>
+			<th>Ranges</th>
+		</tr>
+					
+		<tr>
+			<td>Epoch</td>
+			<td align="right">[20, 30, 40]</td>
+		</tr>
+
+		
+		<tr>
+			<td>Learning Rate</td>
+			<td align="right">[0.0001, 0.0005,0.003, 0.001]</td>
+		</tr>
+					
+                <tr>
+			<td>Batch Size</td>
+			<td align="right">[32, 64, 128, 256, 512]</td>
+					
+                </tr>
+		
+		<tr>
+			<td>intermediate_dim</td>
+			<td align="right">600</td>	
+		</tr>
+					
+		<tr>
+			<td>Latent_dim</td>
+			<td align="right">[100, 200, 300]</td>
+		</tr>
+
+		<tr>
+			<td>Reg_lambda</td>
+			<td align="right">0.01</td>
+		</tr>
+
+		<tr>
+			<td>Dropout_pkeep</td>
+			<td align="right">1</td>
+		</tr>
+		
+		</tbody></table>
+			
+		<br>
+		<table class="hyper-params">
+		<tbody>	
+		<tr>
+					<th>Dataset</th>
+			                <th>Epoch</th>
+					<th>Learning Rate</th>
+					<th>Batch Size</th>
+					<th>Intermediate_dim</th>
+					<th>Latent_dim</th>
+					<th>Reg_lambda</th>
+					<th>Dropout_pkeep</th>
+				</tr>
+					
+				
+				<tr>
+					<th>MovieLens 1M</th>
+					<th>20</th>
+					<th>0.0005</th>
+					<th>128</th>
+					<th>600</th>
+					<th>100</th>
+					<th>0.01</th>
+					<th>1</th>
+				</tr>
+					
+				<tr>
+					<th>Amazon Digital Music</th>
+					<th>40</th>
+					<th>0.0005</th>
+					<th>512</th>
+					<th>600</th>
+					<th>300</th>
+					<th>0.01</th>
+					<th>1</th>
+				</tr>
+				
+				<tr>
+					<th>Epinions</th>
+					<th>40</th>
+					<th>0.0005</th>
+					<th>512</th>
+					<th>600</th>
+					<th>300</th>
+					<th>0.01</th>
+					<th>1</th>
+				</tr>
+			</tbody></table>
+			<br>
+		
+		</div>
+
+
+		
+		<div id="opt-MultiVAE" class="tab-pane fade">
+
+			<h3>Hyperparameters for <span class="caps">MultiVAE</span></h3>
+		
+			
+			<br>
+			<table class="hyper-params">
+
+				<tbody>
+                		<tr>
+					<th>Dataset</th>
+			                <th>Epoch</th>
+					<th>Learning Rate</th>
+					<th>Batch Size</th>
+					<th>Intermediate_dim</th>
+					<th>Latent_dim</th>
+					<th>Reg_lambda</th>
+					<th>Dropout_pkeep</th>
+					
+				</tr>
+					
+				<tr>
+					<th>MovieLens 1M</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+				</tr>
+					
+					
+				<tr>
+					<th>Amazon Digital Music</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+				</tr>
+					
+				<tr>
+					<th>Epinions</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+				</tr>
+
+			</tbody></table>
+			<br>
+
+		</div>
+
+		
+		<div id="opt-GMF" class="tab-pane fade">
+			<h3>Hyperparameters for <span class="caps">GMF</span></h3>
+			<p>
+				We tested the following hyperparameter space:
+			</p>
+			<table class="hyper-space">
+				<tbody>
+				<tr>
+					<th>Parameter</th>
+					<th>Ranges</th>
+					
+				</tr>
+
+				<tr>
+					<td>Epochs</td>
+					<td align="right">[30, 40, 50]</td>
+					
+				</tr>
+					
+				<tr>
+					<td>Learning Rate</td>
+					<td align="right">[0.0001, 0.0005, 0.001]</td>
+					
+				</tr>
+				<tr>
+					<td>Batch Size</td>
+					<td align="right">[128, 256, 512]</td>
+					
+				</tr>
+					
+				<tr>
+					<td>Mf_factors</td>
+					<td align="right">[8, 16, 32, 64, 128, 256]</td>
+					
+				</tr>	
+				<tr>
+					<td>Is_edge_weight_train</td>
+					<td align="right">True</td>
+					
+				</tr>
+			</tbody></table>
+			<br>
+			
+			
+			<table class="hyper-params">
+				<tbody>
+                <tr>
+					<th>Dataset</th>
+					<th>Epochs</th>
+					<th>Learning Rate</th>
+					<th>Batch Size</th>
+		                        <th>Mf_factors</th>
+			                <th>Is_edge_weight_train</th>
+		</tr>
+					
+		<tr>
+					<th>MovieLens 1M</th>
+					<th>40</th>
+					<th>512</th>
+					<th>128</th>
+		                        <th>0.00014</th>
+			                <th>true</th>
+		</tr>
+					
+		<tr>
+					<th>Amazon Digital Music</th>
+					<th>50</th>
+					<th>256</th>
+					<th>256</th>
+		                        <th>0.00054</th>
+			                <th>true</th>
+		</tr>
+					
+		<tr>
+					<th>Epinions</th>
+					<th>40</th>
+					<th>512</th>
+					<th>256</th>
+		                        <th>0.00035</th>
+			                <th>True</th>
+		</tr>
+			    
+				
+			</tbody></table>
+			<br>
+			
+		
+
+		</div>
+		
+		
+		<div id="opt-NeuMF" class="tab-pane fade">
+
+			<p>
+				<h3>Hyperparameters for <span class="caps">NeuMF</span></h3>
+			</p>
+			<p>
+				We tested the following hyperparameter space:
+			</p>
+			<table class="hyper-space">
+				<tbody>
+
+				<tr>
+					<th>Parameter</th>
+					<th>Ranges</th>
+					
+				</tr>
+
+				<tr>
+					<td>Epoch</td>
+					<td align="right">[quniform, 30, 100, 1]</td>
+					
+				</tr>	
+
+				<tr>
+					<td>Learning rate</td>
+					<td align="right">[loguniform, -11.512925464970229, 0]</td>
+					
+				</tr>
+				
+				<tr>
+					<td>Mf_factors</td>
+					<td align="right">[64, 128, 256]</td>
+					
+				</tr>
+				<tr>
+					<td>Batch Size</td>
+					<td align="right">[64, 128, 256]</td>
+					
+				</tr>
+					
+					
+				<tr>
+					<td>Dropout</td>
+					<td align="right">0</td>
+					
+				</tr>
+					
+				<tr>
+					<td>Is_mf_train</td>
+					<td align="right">True</td>	
+				</tr>
+
+				<tr>
+					<td>Is_mlp_train</td>
+					<td align="right">True</td>	
+				</tr>
+
+				<tr>
+					<td>m</td>
+					<td align="right">[4,6,8]</td>	
+				</tr>
+				
+                
+			</tbody></table>
+			<br>
+			
+		<br>
+			
+			
+		<table class="hyper-params">
+		<tbody>
+			
+                <tr>
+					<th>Dataset</th>
+					<th>Epoch</th>
+					<th>Learning rate</th>
+					<th>Mf_factors</th>
+		                        <th>Batch Size</th>
+			                <th>Dropout</th>
+			 		<th>Is_mf_train</th>
+			                <th>Is_mlp_train</th>
+			                <th>m</th>
+		</tr>
+					
+		<tr>
+					<th>MovieLens 1M</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					
+		</tr>
+
+
+		<tr>
+					<th>Amazon Digital Music</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					
+		</tr>
+
+		<tr>
+					<th>Epinions</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					<th>-</th>
+					
+		</tr>
+							
+		</tbody></table>
+
+		</div>
+		<div id="opt-ConvNeuMF" class="tab-pane fade">
+			<h3>Hyperparameters for <span class="caps">ConvNeuMF</span></h3>
+			<p>
+				We tested the following hyperparameter space:
+			</p>
+			<table class="hyper-space">
+				<tbody>
+				<tr>
+					<th>Parameter</th>
+					<th>Ranges</th>
+				</tr>
+
+				<tr>
+					<th>Epoch</th>
+					<th>[20, 30]</th>
+				</tr>
+					
+				<tr>
+					<th>Learning Rate</th>
+					<th>[0.0001, 0.0005, 0.001]</th>
+				</tr>
+					
+				<tr>
+					<th>Batch Size</th>
+					<th>[16, 32]</th>
+				</tr>
+					
+				<tr>
+					<th>Embedding Size</th>
+					<th>[16, 32]</th>
+				</tr>
+					
+				<tr>
+					<th>l_w</th>
+					<th>[0.0001, 0.001, 0.0005]</th>
+				</tr>
+					
+				<tr>
+					<th>l_b</th>
+					<th>[0.01, 0.001,0.0001, 0.00001]</th>
+				</tr>
+				
+				<tr>
+					<th>Dropout</th>
+					<th>[0.1,0.2,0.3, 0.4, 0.5]</th>
+				</tr>
+				
+               
+			</tbody></table>
+			<br>
+			
+		<table class="hyper-params">
+		<tbody>
+		
+		<tr>
+					<th>Dataset</th>
+					<th>Epoch</th>
+					<th>Learning Rate</th>
+					<th>Batch Size</th>
+		                        <th>Embedding Size</th>
+			                <th>l_w</th>
+			                <th>l_b</th>
+			                <th>Dropout</th>
+			                
+		</tr>
+		
+                <tr>
+					<th>MovieLens 1M</th>
+					<th>30</th>
+			                <th>0.0005</th>
+					<th>16</th>
+					<th>32</th>
+					<th>0.0001</th>
+					<th>0.01</th>
+					<th>0.7</th>
+					
+		</tr>
+					
+		<tr>
+					<th>Amazon Digital Music</th>
+					<th>30</th>
+			                <th>0.0005</th>
+					<th>16</th>
+					<th>32-</th>
+					<th>0.0005</th>
+					<th>0.001</th>
+					<th>0.5</th>
+		</tr>
+
+		<tr>
+					<th>Epinions</th>
+					<th>25</th>
+			                <th>0.0001</th>
+					<th>16</th>
+					<th>100</th>
+					<th>0.1</th>
+					<th>0.001</th>
+					<th>0.45</th>
+		</tr>
+			
+		
+							
+		</tbody></table>
+			
+		</div>
+			
+			
+			
+		<div id="opt-ConvMF" class="tab-pane fade">
+
+			<h3>Hyperparameters for <span class="caps">ConvMF</span></h3>
+
+
+			<table class="hyper-space">
+				<tbody>
+				<tr>
+					<th>Parameter</th>
+					<th>Ranges</th>
+				</tr>
+
+				<tr>
+					<th>Epoch</th>
+					<th>[20, 30]</th>
+				</tr>
+					
+				<tr>
+					<th>Learning Rate</th>
+					<th>[0.0001, 0.0005, 0.001, 0.003]</th>
+				</tr>
+					
+				<tr>
+					<th>Batch Size</th>
+					<th>[50, 64, 100]</th>
+				</tr>
+					
+				<tr>
+					<th>Embedding Size</th>
+					<th>[64, 128, 256]</th>
+				</tr>
+					
+				<tr>
+					<th>l_w</th>
+					<th>[0.0001, 0.001, 0.0005]</th>
+				</tr>
+					
+				<tr>
+					<th>l_b</th>
+					<th>[0.01, 0.001,0.0001, 0.00001]</th>
+				</tr>
+				
+				<tr>
+					<th>Dropout</th>
+					<th>[0.1,0.2,0.3, 0.4, 0.5]</th>
+				</tr>
+				
+               
+			</tbody></table>
+			<br>
+
+			<table class="hyper-params">
+		<tbody>
+		
+		<tr>
+					<th>Dataset</th>
+					<th>Epoch</th>
+					<th>Learning Rate</th>
+					<th>Batch Size</th>
+		                        <th>Embedding Size</th>
+			                <th>l_w</th>
+			                <th>l_b</th>
+			                <th>Dropout</th>
+			                
+		</tr>
+		
+                <tr>
+					<th>MovieLens 1M</th>
+					<th>25</th>
+			                <th>0.0001</th>
+					<th>32</th>
+					<th>100</th>
+					<th>0.001</th>
+					<th>0.00001</th>
+					<th>0.2</th>
+					
+		</tr>
+					
+		<tr>
+					<th>Amazon Digital Music</th>
+					<th>25</th>
+			                <th>0.0001</th>
+					<th>16</th>
+					<th>64</th>
+					<th>0.001</th>
+					<th>0.00001</th>
+					<th>0.2</th>
+		</tr>
+
+		<tr>
+					<th>Epinions</th>
+					<th>25</th>
+			                <th>0.0001</th>
+					<th>16</th>
+					<th>100</th>
+					<th>0.1</th>
+					<th>0.001</th>
+					<th>0.45</th>
+		</tr>
+			
+		
+							
+		</tbody></table>
+				
+			<br>
+		</div>
+			
+		
+		
+			
+		<div id="opt-NGCF" class="tab-pane fade">
+
+			<h3>Hyperparameters for <span class="caps">NGCF</span></h3>
+			
+			<p>
+				We tested the following hyperparameter space:
+			</p>
+			
+			<table class="hyper-space">
+				<tbody>
+				<tr>
+					<th>Parameter</th>
+					<th>Options</th>
+				</tr>
+
+				<tr>
+					<th>Learning rate</th>
+					<th>[0.0001, 0.0005, 0.001, 0.003]</th>
+				</tr>
+				
+				<tr>
+					<th>Epoch</th>
+					<th>[30, 40, 50]</th>
+				</tr>
+
+				<tr>
+					<th>Batch Size</th>
+					<th>[64, 128, 256, 512]</th>
+				</tr>
+
+				<tr>
+					<th>Factors</th>
+					<th>[8, 16, 32, 64, 128, 256]</th>
+				</tr>
+
+				<tr>
+					<th>Node_dropout</th>
+					<th>[0.1,0.2, 0.3, 0.45, 0.5]</th>
+				</tr>
+
+				<tr>
+					<th>Message_dropout</th>
+					<th>[0.1,0.2, 0.3, 0.45, 0.5]</th>
+				</tr>
+					
+			</tbody></table>
+			<br>
+			<table class="hyper-params">
+		<tbody>
+		
+		<tr>
+					<th>Dataset</th>
+					<th>Epoch</th>
+					<th>Learning Rate</th>
+					<th>Batch Size</th>
+		                        <th>Factors</th>
+			                
+			                
+			                
+		</tr>
+		
+                <tr>
+					<th>MovieLens 1M</th>
+					<th>30</th>
+			                <th>0.0002</th>
+					<th>512</th>
+					<th>64</th>
+					
+					
+					
+		</tr>
+					
+		<tr>
+					<th>Amazon Digital Music</th>
+					<th>40</th>
+			                <th>0.00005</th>
+					<th>256</th>
+					<th>32</th>
+					
+					
+		</tr>
+
+		<tr>
+					<th>Epinions</th>
+					<th>50</th>
+			                <th>0.0002</th>
+					<th>512</th>
+					<th>8</th>
+					
+		</tr>
+			
+		
+							
+		</tbody></table>
+
+		</div>
+    </div>

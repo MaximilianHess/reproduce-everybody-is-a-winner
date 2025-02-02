@@ -1,0 +1,148 @@
+2025-01-26 15:35:05.904230: I Loading parameters
+2025-01-26 15:35:05.904451: I Parameter lr set to 0.5
+2025-01-26 15:35:05.904584: I Parameter mf_factors set to 256
+2025-01-26 15:35:05.904708: I Parameter is_edge_weight_train set to True
+2025-01-26 15:35:08.248417: I Epoch 1/15 loss 295.35794
+2025-01-26 15:35:08.248994: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:08.396221: I ******************************************
+2025-01-26 15:35:10.480025: I Epoch 2/15 loss 95.42500
+2025-01-26 15:35:10.480616: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:10.630300: I ******************************************
+2025-01-26 15:35:12.336913: I Epoch 3/15 loss 42.49914
+2025-01-26 15:35:12.344030: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:12.495041: I ******************************************
+2025-01-26 15:35:14.190488: I Epoch 4/15 loss 23.67816
+2025-01-26 15:35:14.191111: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:14.322131: I ******************************************
+2025-01-26 15:35:16.011689: I Epoch 5/15 loss 15.55298
+2025-01-26 15:35:16.012256: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:17.965591: I Epoch 6/15 loss 10.66477
+2025-01-26 15:35:17.966933: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:19.964717: I Epoch 7/15 loss 7.86642
+2025-01-26 15:35:19.965375: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:21.852107: I Epoch 8/15 loss 6.01249
+2025-01-26 15:35:21.852955: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:23.699717: I Epoch 9/15 loss 4.72867
+2025-01-26 15:35:23.700241: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:25.484141: I Epoch 10/15 loss 3.87684
+2025-01-26 15:35:25.484871: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:27.309222: I Epoch 11/15 loss 3.24920
+2025-01-26 15:35:27.320102: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:29.332636: I Epoch 12/15 loss 2.68526
+2025-01-26 15:35:29.333585: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:31.070317: I Epoch 13/15 loss 2.29517
+2025-01-26 15:35:31.071805: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:33.080409: I Epoch 14/15 loss 1.97191
+2025-01-26 15:35:33.092522: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:35.259864: I Epoch 15/15 loss 1.72514
+2025-01-26 15:35:35.261347: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:35.477437: I Loading parameters
+2025-01-26 15:35:35.478022: I Parameter lr set to 0.5
+2025-01-26 15:35:35.478153: I Parameter mf_factors set to 256
+2025-01-26 15:35:35.478406: I Parameter is_edge_weight_train set to True
+2025-01-26 15:35:38.009021: I Epoch 1/15 loss 292.63046
+2025-01-26 15:35:38.009613: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:38.159155: I ******************************************
+2025-01-26 15:35:40.269097: I Epoch 2/15 loss 95.13748
+2025-01-26 15:35:40.269602: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:42.321635: I Epoch 3/15 loss 42.28916
+2025-01-26 15:35:42.336057: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:44.084530: I Epoch 4/15 loss 23.76358
+2025-01-26 15:35:44.084917: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:46.552023: I Epoch 5/15 loss 15.22130
+2025-01-26 15:35:46.552592: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:48.687154: I Epoch 6/15 loss 10.74129
+2025-01-26 15:35:48.688049: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:50.406549: I Epoch 7/15 loss 7.84430
+2025-01-26 15:35:50.407016: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:52.322919: I Epoch 8/15 loss 5.91767
+2025-01-26 15:35:52.324375: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:54.489345: I Epoch 9/15 loss 4.74663
+2025-01-26 15:35:54.490606: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:56.340303: I Epoch 10/15 loss 3.82107
+2025-01-26 15:35:56.340978: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:35:58.499276: I Epoch 11/15 loss 3.15823
+2025-01-26 15:35:58.500684: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:00.732459: I Epoch 12/15 loss 2.66630
+2025-01-26 15:36:00.734388: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:02.661161: I Epoch 13/15 loss 2.27682
+2025-01-26 15:36:02.661933: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:04.840328: I Epoch 14/15 loss 1.96604
+2025-01-26 15:36:04.841209: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:06.942169: I Epoch 15/15 loss 1.70229
+2025-01-26 15:36:06.942999: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:07.129473: I Loading parameters
+2025-01-26 15:36:07.130592: I Parameter lr set to 0.5
+2025-01-26 15:36:07.130812: I Parameter mf_factors set to 256
+2025-01-26 15:36:07.131161: I Parameter is_edge_weight_train set to True
+2025-01-26 15:36:09.504036: I Epoch 1/15 loss 297.85117
+2025-01-26 15:36:09.509268: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:09.695771: I ******************************************
+2025-01-26 15:36:11.717748: I Epoch 2/15 loss 95.40277
+2025-01-26 15:36:11.718275: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:11.842082: I ******************************************
+2025-01-26 15:36:13.871078: I Epoch 3/15 loss 43.26083
+2025-01-26 15:36:13.872080: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:13.990892: I ******************************************
+2025-01-26 15:36:15.576066: I Epoch 4/15 loss 24.13262
+2025-01-26 15:36:15.576543: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:17.634937: I Epoch 5/15 loss 15.32118
+2025-01-26 15:36:17.635543: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:19.713982: I Epoch 6/15 loss 10.72552
+2025-01-26 15:36:19.717497: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:21.986099: I Epoch 7/15 loss 7.88615
+2025-01-26 15:36:21.986627: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:23.910833: I Epoch 8/15 loss 6.07360
+2025-01-26 15:36:23.911563: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:25.889177: I Epoch 9/15 loss 4.83531
+2025-01-26 15:36:25.889623: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:27.376725: I Epoch 10/15 loss 3.84757
+2025-01-26 15:36:27.377150: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:28.946124: I Epoch 11/15 loss 3.20426
+2025-01-26 15:36:28.958885: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:30.447594: I Epoch 12/15 loss 2.69472
+2025-01-26 15:36:30.448105: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:31.842841: I Epoch 13/15 loss 2.29852
+2025-01-26 15:36:31.850557: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:33.131945: I Epoch 14/15 loss 1.98139
+2025-01-26 15:36:33.132242: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:34.912237: I Epoch 15/15 loss 1.71518
+2025-01-26 15:36:34.913047: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:35.020688: I Loading parameters
+2025-01-26 15:36:35.020970: I Parameter lr set to 0.5
+2025-01-26 15:36:35.021197: I Parameter mf_factors set to 256
+2025-01-26 15:36:35.021361: I Parameter is_edge_weight_train set to True
+2025-01-26 15:36:36.539270: I Epoch 1/15 loss 302.15161
+2025-01-26 15:36:36.539864: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:36.617468: I ******************************************
+2025-01-26 15:36:38.208960: I Epoch 2/15 loss 95.12619
+2025-01-26 15:36:38.209444: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:38.298067: I ******************************************
+2025-01-26 15:36:39.589006: I Epoch 3/15 loss 42.36298
+2025-01-26 15:36:39.589625: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:39.653838: I ******************************************
+2025-01-26 15:36:41.160447: I Epoch 4/15 loss 24.35406
+2025-01-26 15:36:41.161926: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:41.241952: I ******************************************
+2025-01-26 15:36:42.692987: I Epoch 5/15 loss 15.49965
+2025-01-26 15:36:42.697377: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:44.206143: I Epoch 6/15 loss 10.62908
+2025-01-26 15:36:44.206674: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:45.612559: I Epoch 7/15 loss 7.89921
+2025-01-26 15:36:45.613499: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:47.358983: I Epoch 8/15 loss 6.11528
+2025-01-26 15:36:47.359412: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:48.671653: I Epoch 9/15 loss 4.75135
+2025-01-26 15:36:48.672112: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:50.153802: I Epoch 10/15 loss 3.86425
+2025-01-26 15:36:50.154298: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:51.792210: I Epoch 11/15 loss 3.24493
+2025-01-26 15:36:51.792588: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:53.144012: I Epoch 12/15 loss 2.69114
+2025-01-26 15:36:53.144924: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:54.690305: I Epoch 13/15 loss 2.34294
+2025-01-26 15:36:54.690744: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:56.311193: I Epoch 14/15 loss 1.99896
+2025-01-26 15:36:56.311704: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1
+2025-01-26 15:36:57.643065: I Epoch 15/15 loss 1.73727
+2025-01-26 15:36:57.644191: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_movieLenz/run_1

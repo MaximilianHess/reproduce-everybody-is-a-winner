@@ -1,0 +1,104 @@
+2025-01-26 15:52:18.723654: I Loading parameters
+2025-01-26 15:52:18.736146: I Parameter lr set to 0.5
+2025-01-26 15:52:18.736253: I Parameter mf_factors set to 256
+2025-01-26 15:52:18.736334: I Parameter is_edge_weight_train set to True
+2025-01-26 15:52:25.413102: I Epoch 1/10 loss 200.09695
+2025-01-26 15:52:25.414105: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:52:25.746130: I ******************************************
+2025-01-26 15:52:31.748157: I Epoch 2/10 loss 76.69801
+2025-01-26 15:52:31.749529: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:52:32.239202: I ******************************************
+2025-01-26 15:52:37.813307: I Epoch 3/10 loss 34.89140
+2025-01-26 15:52:37.814021: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:52:44.088190: I Epoch 4/10 loss 19.32995
+2025-01-26 15:52:44.088788: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:52:50.082157: I Epoch 5/10 loss 12.59155
+2025-01-26 15:52:50.082871: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:52:56.499165: I Epoch 6/10 loss 8.76461
+2025-01-26 15:52:56.509116: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:53:03.277821: I Epoch 7/10 loss 6.38005
+2025-01-26 15:53:03.278427: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:53:09.941231: I Epoch 8/10 loss 4.91177
+2025-01-26 15:53:09.941833: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:53:15.885979: I Epoch 9/10 loss 3.91427
+2025-01-26 15:53:15.886637: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:53:21.522971: I Epoch 10/10 loss 3.15612
+2025-01-26 15:53:21.523707: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:53:22.087657: I Loading parameters
+2025-01-26 15:53:22.087825: I Parameter lr set to 0.5
+2025-01-26 15:53:22.087967: I Parameter mf_factors set to 256
+2025-01-26 15:53:22.088090: I Parameter is_edge_weight_train set to True
+2025-01-26 15:53:28.422789: I Epoch 1/10 loss 201.65651
+2025-01-26 15:53:28.423498: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:53:28.727668: I ******************************************
+2025-01-26 15:53:34.008948: I Epoch 2/10 loss 77.67501
+2025-01-26 15:53:34.009952: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:53:34.312706: I ******************************************
+2025-01-26 15:53:40.051458: I Epoch 3/10 loss 35.77632
+2025-01-26 15:53:40.052184: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:53:40.373125: I ******************************************
+2025-01-26 15:53:46.303303: I Epoch 4/10 loss 19.70700
+2025-01-26 15:53:46.316294: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:53:52.486175: I Epoch 5/10 loss 12.51360
+2025-01-26 15:53:52.487236: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:53:58.767502: I Epoch 6/10 loss 8.82459
+2025-01-26 15:53:58.771146: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:54:04.637186: I Epoch 7/10 loss 6.37107
+2025-01-26 15:54:04.651666: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:54:05.001518: I ******************************************
+2025-01-26 15:54:10.560972: I Epoch 8/10 loss 4.93245
+2025-01-26 15:54:10.565127: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:54:16.912636: I Epoch 9/10 loss 3.85233
+2025-01-26 15:54:16.928240: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:54:23.604824: I Epoch 10/10 loss 3.13557
+2025-01-26 15:54:23.605745: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:54:24.018249: I Loading parameters
+2025-01-26 15:54:24.018452: I Parameter lr set to 0.5
+2025-01-26 15:54:24.018570: I Parameter mf_factors set to 256
+2025-01-26 15:54:24.018677: I Parameter is_edge_weight_train set to True
+2025-01-26 15:54:30.820601: I Epoch 1/10 loss 201.65771
+2025-01-26 15:54:30.821284: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:54:31.328971: I ******************************************
+2025-01-26 15:54:37.117542: I Epoch 2/10 loss 79.12531
+2025-01-26 15:54:37.118233: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:54:44.071884: I Epoch 3/10 loss 35.20532
+2025-01-26 15:54:44.072752: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:54:49.559163: I Epoch 4/10 loss 19.67003
+2025-01-26 15:54:49.559825: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:54:53.769241: I Epoch 5/10 loss 12.37645
+2025-01-26 15:54:53.770351: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:54:57.797783: I Epoch 6/10 loss 8.72917
+2025-01-26 15:54:57.798255: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:55:02.444224: I Epoch 7/10 loss 6.31959
+2025-01-26 15:55:02.444890: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:55:07.470196: I Epoch 8/10 loss 4.86467
+2025-01-26 15:55:07.470486: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:55:12.213711: I Epoch 9/10 loss 3.86307
+2025-01-26 15:55:12.214087: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:55:17.269756: I Epoch 10/10 loss 3.13513
+2025-01-26 15:55:17.270608: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:55:17.539974: I Loading parameters
+2025-01-26 15:55:17.540463: I Parameter lr set to 0.5
+2025-01-26 15:55:17.540630: I Parameter mf_factors set to 256
+2025-01-26 15:55:17.540774: I Parameter is_edge_weight_train set to True
+2025-01-26 15:55:22.105821: I Epoch 1/10 loss 199.06268
+2025-01-26 15:55:22.106466: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:55:22.352618: I ******************************************
+2025-01-26 15:55:26.471456: I Epoch 2/10 loss 77.39872
+2025-01-26 15:55:26.472446: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:55:31.304282: I Epoch 3/10 loss 34.94864
+2025-01-26 15:55:31.305065: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:55:35.575789: I Epoch 4/10 loss 19.65523
+2025-01-26 15:55:35.576142: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:55:40.092268: I Epoch 5/10 loss 12.39488
+2025-01-26 15:55:40.092687: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:55:45.095776: I Epoch 6/10 loss 8.54638
+2025-01-26 15:55:45.096190: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:55:49.971932: I Epoch 7/10 loss 6.26068
+2025-01-26 15:55:49.973222: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:55:54.728124: I Epoch 8/10 loss 4.88154
+2025-01-26 15:55:54.728850: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:56:01.405114: I Epoch 9/10 loss 3.89827
+2025-01-26 15:56:01.405703: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 15:56:07.957593: I Epoch 10/10 loss 3.15491
+2025-01-26 15:56:07.968282: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1

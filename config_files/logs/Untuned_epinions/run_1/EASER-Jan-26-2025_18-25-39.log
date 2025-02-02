@@ -1,0 +1,21 @@
+2025-01-26 18:25:39.757865: I Loading parameters
+2025-01-26 18:25:39.758314: I Parameter neighborhood set to -1
+2025-01-26 18:25:39.758612: I Parameter l2_norm set to 3.72
+2025-01-26 18:25:40.207671: I The similarity computation has taken: 0.4483199119567871
+2025-01-26 18:25:52.968639: I Finished
+2025-01-26 18:25:52.969189: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 18:25:53.223803: I ******************************************
+2025-01-26 18:25:53.245340: I Loading parameters
+2025-01-26 18:25:53.245826: I Parameter neighborhood set to -1
+2025-01-26 18:25:53.246186: I Parameter l2_norm set to 3.72
+2025-01-26 18:25:53.700989: I The similarity computation has taken: 0.4541127681732178
+2025-01-26 18:26:05.714954: I Finished
+2025-01-26 18:26:05.715865: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 18:26:06.032456: I ******************************************
+2025-01-26 18:26:06.053252: I Loading parameters
+2025-01-26 18:26:06.053661: I Parameter neighborhood set to -1
+2025-01-26 18:26:06.054205: I Parameter l2_norm set to 3.72
+2025-01-26 18:26:06.514368: I The similarity computation has taken: 0.45917463302612305
+2025-01-26 18:26:22.653728: I Finished
+2025-01-26 18:26:22.654343: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_epinions/run_1
+2025-01-26 18:26:23.140934: I ******************************************

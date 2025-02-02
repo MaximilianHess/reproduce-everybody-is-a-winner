@@ -1,0 +1,4 @@
+2025-01-26 15:52:09.927270: I Loading parameters
+2025-01-26 15:52:09.927893: I Parameter lr set to 0.5
+2025-01-26 15:52:09.927998: I Parameter mf_factors set to 256
+2025-01-26 15:52:09.928078: I Parameter is_edge_weight_train set to True

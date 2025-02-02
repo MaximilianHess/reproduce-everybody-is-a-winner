@@ -1,0 +1,41 @@
+2025-01-27 12:30:06.900276: I Loading parameters
+2025-01-27 12:30:06.900576: I Parameter lr set to 0.09
+2025-01-27 12:30:06.900851: I Parameter latent_dim set to 64
+2025-01-27 12:30:06.901155: I Parameter l_w set to 0.4
+2025-01-27 12:30:06.901442: I Parameter weight_size set to [64]
+2025-01-27 12:30:06.901576: I Parameter node_dropout set to []
+2025-01-27 12:30:06.901691: I Parameter message_dropout set to [0.4]
+2025-01-27 12:30:06.901803: I Parameter n_fold set to 5
+2025-01-27 12:30:12.222662: I Epoch 1/15 loss 43023.30078
+2025-01-27 12:30:12.223838: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:12.408180: I ******************************************
+2025-01-27 12:30:15.453286: I Epoch 2/15 loss 10717.46289
+2025-01-27 12:30:15.453883: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:15.626351: I ******************************************
+2025-01-27 12:30:18.601143: I Epoch 3/15 loss 4762.75955
+2025-01-27 12:30:18.602764: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:21.626806: I Epoch 4/15 loss 2676.88257
+2025-01-27 12:30:21.627349: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:21.792195: I ******************************************
+2025-01-27 12:30:24.813856: I Epoch 5/15 loss 1713.90984
+2025-01-27 12:30:24.814945: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:28.456876: I Epoch 6/15 loss 1189.71050
+2025-01-27 12:30:28.460386: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:32.148300: I Epoch 7/15 loss 504.36894
+2025-01-27 12:30:32.148985: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:34.979569: I Epoch 8/15 loss 246.02686
+2025-01-27 12:30:34.979998: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:37.094831: I Epoch 9/15 loss 193.26224
+2025-01-27 12:30:37.095264: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:39.386804: I Epoch 10/15 loss 156.53355
+2025-01-27 12:30:39.387617: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:41.571766: I Epoch 11/15 loss 129.36653
+2025-01-27 12:30:41.572201: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:44.715367: I Epoch 12/15 loss 108.70382
+2025-01-27 12:30:44.716231: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:47.155927: I Epoch 13/15 loss 92.62338
+2025-01-27 12:30:47.156830: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:50.682155: I Epoch 14/15 loss 79.86403
+2025-01-27 12:30:50.683814: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
+2025-01-27 12:30:54.300810: I Epoch 15/15 loss 69.57045
+2025-01-27 12:30:54.301252: I Writing recommendations at: /data/raid5/data/maximilian_hess/RecSys2023_hyperparameter_tuning/results/Untuned_amazon/run_1
