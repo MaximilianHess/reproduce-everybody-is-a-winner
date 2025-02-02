@@ -17,7 +17,7 @@ Then run
   pip install -r requirements.txt
 </pre>
 
-We added the package `ruamel.yaml` to `requirements.txt` as it is required for our experiments. No other package versions from the original environment were changed.  
+We added the package `ruamel.yaml` to `requirements.txt` as it is required for our experiments. No other package versions from the original environment were changed. Installing it did not result in any change of package versions. 
 
 The  `reproduce_untuned.py` file contains the code to conduct our experiments for the untuned models. By default, it runs the untuned configuration 30 times on the Amazon dataset. To change the dataset the file has to edited manually and another config file has to be selected.
 
