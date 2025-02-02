@@ -28,7 +28,7 @@ The tuned config files were run with the original code from the authors, `reprod
 
 The **`ttests_untuned_results.ipynb`** notebook contains the code for running the t-test on the experiment results. Since we wanted to minimize interference with the original Elliot environment, you will need a separate environment to run it.  
 
-First, create and activate a simple virtual environment:  
+First, create and activate a simple virtual environment. It was created and tested with Python 3.12.5:  
 
 ```bash
 python -m venv ttest_env
