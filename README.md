@@ -47,6 +47,6 @@ Once the environment is set up, open the Jupyter Notebook and run `ttests_untune
 
 ### What is Not Included in the Repository
 
-Due to storage constraints, we did not include the `results` and `weights` (which was empty either way) folders. This means that the files created by Elliot containing the model predictions are not included. However, we have included the individual performance files from each run in the `performance` folder.
+Due to storage constraints, we did not include the `results` and `weights` folders. This means that the files created by Elliot containing the model predictions are not included. However, we have included the individual performance files from each run in the `performance` folder.
 
 
