@@ -5,22 +5,21 @@ Run the following command to create <em>"elliot_env"</em> environment</li>
 
 </p>
 <pre>
-  conda create --name elliot_env python=3.8
+ conda create --name elliot_env python=3.8
 </pre>
 
 <p>Activate the conda environment</p>
 <pre>
   conda activate elliot_env
 </pre>
-
-<p>Change to the <em>"hyperparameter_tuning"</em> directory and run this line to install the required packages</p>
+Then run
 <pre>
   pip install -r requirements.txt
 </pre>
 
 We added the package `ruamel.yaml` to `requirements.txt` as it is required for our experiments. No other package versions from the original environment were changed.  
 
-The `reproducibility.py` file contains the code to conduct our experiments. By default, it runs the untuned configuration 30 times on the Amazon dataset.  
+The  `reproduce_untuned.py` file contains the code to conduct our experiments for the untuned models. By default, it runs the untuned configuration 30 times on the Amazon dataset.  
 
 
 ### Running the t-test Notebook  
@@ -43,6 +42,8 @@ pip install -r ttest_requirements.txt
 Once the environment is set up, open the Jupyter Notebook and run `ttests_untuned_results.ipynb`
 
 
-### What is not included in the repo
+### What is Not Included in the Repository
 
-Due to storage constraints we did not include the results file created by Elliot which contains the predictions of the models. However we included the individual performance files from each run which enable 
+Due to storage constraints, we did not include the `results` and `weights` (which was empty either way) folders. This means that the files created by Elliot containing the model predictions are not included. However, we have included the individual performance files from each run in the `performance` folder.
+
+
