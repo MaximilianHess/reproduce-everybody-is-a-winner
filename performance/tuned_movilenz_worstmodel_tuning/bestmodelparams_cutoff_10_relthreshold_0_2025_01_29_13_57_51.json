@@ -1,0 +1,28 @@
+[
+    {
+        "default_validation_metric": "nDCG",
+        "default_validation_cutoff": 10,
+        "rel_threshold": 0
+    },
+    {
+        "meta": {
+            "hyper_max_evals": 20,
+            "hyper_opt_alg": "tpe",
+            "verbose": true,
+            "save_recs": true
+        },
+        "recommender": "NGCF_seed=42_e=30_bs=256_lr=0$0008456760072502752_factors=64_l_w=0$033442468825162476_weight_size=64_node_dropout=0$1-0$2-0$3-0$45-0$5_message_dropout=0$1-0$2-0$3-0$45-0$5_n_fold=5",
+        "configuration": {
+            "lr": 0.0008456760072502752,
+            "epochs": 30,
+            "batch_size": 256,
+            "factors": 64,
+            "l_w": 0.033442468825162476,
+            "weight_size": "(64,)",
+            "node_dropout": "(0.1,0.2, 0.3, 0.45, 0.5)",
+            "message_dropout": "(0.1,0.2, 0.3, 0.45, 0.5,)",
+            "name": "NGCF_seed=42_e=30_bs=256_lr=0$0008456760072502752_factors=64_l_w=0$033442468825162476_weight_size=64_node_dropout=0$1-0$2-0$3-0$45-0$5_message_dropout=0$1-0$2-0$3-0$45-0$5_n_fold=5",
+            "best_iteration": 27
+        }
+    }
+]

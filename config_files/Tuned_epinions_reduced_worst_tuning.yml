@@ -1,0 +1,38 @@
+experiment:
+  dataset: epinions
+  data_config:
+    strategy: dataset
+    dataset_path: ../data/{0}/dataset_reduced.tsv
+  prefiltering:
+    - strategy: iterative_k_core
+      core: 2
+  binarize: True
+  splitting:
+    save_on_disk: True
+    save_folder: ../data/{0}/splitting/
+    test_splitting:
+      test_ratio: 0.2
+      strategy: random_subsampling
+      folds: 5
+  top_k: 50
+  evaluation:
+    cutoffs: [10]
+    simple_metrics: [nDCG, MAP, MRR, Precision, Recall,F1,HR]
+  gpu: 0
+  external_models_path: ../external/models/__init__.py
+  models:
+     NGCF:
+      meta:
+        hyper_max_evals: 25
+        hyper_opt_alg: tpe
+        verbose: True
+        save_recs: True
+      lr: [loguniform, -11.512925464970229, 0]
+      epochs: [40, 50, 60]
+      batch_size: [256, 512]
+      factors: [4, 8, 16]
+      batch_size: 256
+      l_w: [loguniform, -11.512925464970229, 0]
+      weight_size: (64,)
+      node_dropout: (0.1,0.2, 0.3, 0.45, 0.5)
+      message_dropout: (0.1,0.2, 0.3, 0.45, 0.5,)

@@ -19,7 +19,9 @@ Then run
 
 We added the package `ruamel.yaml` to `requirements.txt` as it is required for our experiments. No other package versions from the original environment were changed.  
 
-The  `reproduce_untuned.py` file contains the code to conduct our experiments for the untuned models. By default, it runs the untuned configuration 30 times on the Amazon dataset.  
+The  `reproduce_untuned.py` file contains the code to conduct our experiments for the untuned models. By default, it runs the untuned configuration 30 times on the Amazon dataset. To change the dataset the file has to edited manually and another config file has to be selected.
+
+The tuned config files were run with the original code from the authors, `reproducibility_original.py`, in which the path to config file has to be modified manually.
 
 
 ### Running the t-test Notebook  
@@ -30,13 +32,14 @@ First, create and activate a simple virtual environment:
 
 ```bash
 python -m venv ttest_env
-source ttest_env/bin/activate
+source ttest_env/bin/activate # MacOS/Linux
+ttest_env\Scripts\activate #Windows
 ```
 
 Install the required dependencies in the new environment:  
 
 ```bash
-pip install -r ttest_requirements.txt
+pip install -r requirements-ttest.txt
 ```
 
 Once the environment is set up, open the Jupyter Notebook and run `ttests_untuned_results.ipynb`
